@@ -1,0 +1,1514 @@
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 5 & 5S in portrait                                                                               */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (orientation: portrait) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+		
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		height: 3.8em;
+	}
+
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0.98em 0 0;
+	} 
+	
+	nav ul {
+		/*display: none;*/
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+
+	/*#hero {
+		background: transparent url(../images/woman_laundry.jpg) no-repeat;
+		background-position: -355px center;
+		background-size: cover;
+		border-bottom: 0px solid #99d15e;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+		height: 425px;
+		margin: -25px 0 0 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}*/
+
+	#hero .inner {
+		margin: 0;
+		padding: 68px 0 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	#hero .inner .hero-container .hero-header h1, 
+	#hero .inner .hero-container .hero-header h2 {
+		font-weight: 700;
+		line-height: 1;
+		margin: 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+
+	#hero .inner .hero-container .hero-header h1 {
+		color: #2351fe;
+		font-size: 2em;
+	}
+
+	#hero .inner .hero-container .hero-header h2 {
+		color: #00a2fd;
+		font-size: 3em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  sponsors                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#sponsors {
+		clear: both;
+		display: none;
+		text-align: left;
+	}
+
+	#sponsors .sponsors-title {
+		color: #000;
+		font-family: "Lato", sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 225px 0 0 275px;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+
+	#sponsors p {
+		font-family: "Lato", sans-serif;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 0 0 0 175px;
+	}
+
+	#sponsors p.one {
+		color: #c21b26;
+		margin: 30px 0 0 -25px;
+	}
+
+	#sponsors p.two {
+		color: #eee;
+		margin: 30px 0 0 10px;
+	}
+
+	#sponsors p.three {
+		color: #515970;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+
+	#sponsors p.three2 {
+		color: #515970;
+		margin: 0 0 0 -660px;
+		text-align: center;
+	}
+
+	#sponsors p.four {
+		color: #112677;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  ask chris                                                                */
+	/* ------------------------------------------------------------------------- */
+
+	#ask_chris .ask-wrapper {
+	}
+
+	#ask_chris .ask-wrapper .ask-container .text-center h1 {	
+		font-size: 1.453em;
+	}
+
+	#ask_chris .ask-wrapper .ask-container .text-center .caption p {
+		font-size: 0.95em;
+	}
+
+	#ask_chris .ask-wrapper .ask-container .text-center a {
+  	font-size: 0.82em;
+	}
+
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+
+	#featured .featured-container .column .column-item .econ-icon {
+  	font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .agri-icon {
+  	font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;	
+	}
+
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  services                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container {
+		width: 100%;
+	}
+	
+	#issues-home .issues-home-wrap {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 100%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2),
+	#issues-home .issues-container .single-issues-container:nth-of-type(4),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  services                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container {
+		width: 100%;
+	}
+	
+	#issues-home .issues-home-wrap {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 100%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2),
+	#issues-home .issues-container .single-issues-container:nth-of-type(4),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  volunteer                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#volunteer {
+		padding: 2.72em 0;
+	}
+	
+	#volunteer .volunteer-wrap {
+		width: 90%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading h1 {
+  	font-size: 2.15em;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading hr {
+		width: 25%;
+	}
+			
+	#volunteer .volunteer-wrap .volunteer-body .volunteer-form .how .checkboxes label {
+		width: 75%;
+	}
+		
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+  	font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+				
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+
+	footer {
+		height: 200px;
+	}
+
+	#footer-left, #footer-right {
+		background-color: #00a2fd;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#footer-left {
+		background-color: #00a2fd;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 44px 0 18px;
+		width: 12.65em;
+	}
+
+	#footer-left .footer-logo.right {
+		background-color: #00a2fd;
+		float: none;
+	}
+
+	#footer-left .copyright {
+		background-color: #00a2fd;
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+
+	#footer-right {
+		display: none;
+		background-color: #00a2fd;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 5 & 5S in landscape                                                                              */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (orientation: landscape) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+	
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		height: 3.8em;
+	}
+	
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0.98em 0 0;
+	}
+	
+	nav ul {
+		/*display: none;*/
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+	
+	/*#hero {
+	 background: transparent url(../images/woman_laundry.jpg) no-repeat;
+	 background-position: -355px center;
+	 background-size: cover;
+	 border-bottom: 0px solid #99d15e;
+	 box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+	 height: 425px;
+	 margin: -25px 0 0 0;
+	 padding: 0;
+	 text-align: center;
+	 width: 100%;
+	 }*/
+	
+	#hero .inner {
+		margin: 0;
+		padding: 68px 0 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header h1,
+	#hero .inner .hero-container .hero-header h2 {
+		font-weight: 700;
+		line-height: 1;
+		margin: 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+	
+	#hero .inner .hero-container .hero-header h1 {
+		color: #2351fe;
+		font-size: 2em;
+	}
+	
+	#hero .inner .hero-container .hero-header h2 {
+		color: #00a2fd;
+		font-size: 3em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  sponsors                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#sponsors {
+		clear: both;
+		display: none;
+		text-align: left;
+	}
+	
+	#sponsors .sponsors-title {
+		color: #000;
+		font-family: "Lato", sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 225px 0 0 275px;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+	
+	#sponsors p {
+		font-family: "Lato", sans-serif;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 0 0 0 175px;
+	}
+	
+	#sponsors p.one {
+		color: #c21b26;
+		margin: 30px 0 0 -25px;
+	}
+	
+	#sponsors p.two {
+		color: #eee;
+		margin: 30px 0 0 10px;
+	}
+	
+	#sponsors p.three {
+		color: #515970;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.three2 {
+		color: #515970;
+		margin: 0 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.four {
+		color: #112677;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  ask chris                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#ask_chris .ask-wrapper {
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center h1 {
+		font-size: 1.453em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center .caption p {
+		font-size: 0.95em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center a {
+		font-size: 0.82em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+	
+	#featured .featured-container .column .column-item .econ-icon {
+		font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .agri-icon {
+		font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+	
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  services                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container {
+		width: 100%;
+	}
+	
+	#issues-home .issues-home-wrap {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 100%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2),
+	#issues-home .issues-container .single-issues-container:nth-of-type(4),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  volunteer                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#volunteer {
+		padding: 2.72em 0;
+	}
+	
+	#volunteer .volunteer-wrap {
+		width: 90%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading hr {
+		width: 25%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-body .volunteer-form .how .checkboxes label {
+		width: 75%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	footer {
+		height: 200px;
+	}
+	
+	#footer-left, #footer-right {
+		background-color: #00a2fd;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#footer-left {
+		background-color: #00a2fd;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 44px 0 18px;
+		width: 12.65em;
+	}
+	
+	#footer-left .footer-logo.right {
+		background-color: #00a2fd;
+		float: none;
+	}
+	
+	#footer-left .copyright {
+		background-color: #00a2fd;
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+	
+	#footer-right {
+		display: none;
+		background-color: #00a2fd;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 6 & 6S in portrait                                                                               */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: portrait) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+	
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		height: 3.8em;
+	}
+	
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0.98em 0 0;
+	}
+	
+	nav ul {
+		/*display: none;*/
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+	
+	/*#hero {
+	 background: transparent url(../images/woman_laundry.jpg) no-repeat;
+	 background-position: -355px center;
+	 background-size: cover;
+	 border-bottom: 0px solid #99d15e;
+	 box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+	 height: 425px;
+	 margin: -25px 0 0 0;
+	 padding: 0;
+	 text-align: center;
+	 width: 100%;
+	 }*/
+	
+	#hero .inner {
+		margin: 0;
+		padding: 68px 0 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header h1,
+	#hero .inner .hero-container .hero-header h2 {
+		font-weight: 700;
+		line-height: 1;
+		margin: 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+	
+	#hero .inner .hero-container .hero-header h1 {
+		color: #2351fe;
+		font-size: 2em;
+	}
+	
+	#hero .inner .hero-container .hero-header h2 {
+		color: #00a2fd;
+		font-size: 3em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  sponsors                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#sponsors {
+		clear: both;
+		display: none;
+		text-align: left;
+	}
+	
+	#sponsors .sponsors-title {
+		color: #000;
+		font-family: "Lato", sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 225px 0 0 275px;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+	
+	#sponsors p {
+		font-family: "Lato", sans-serif;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 0 0 0 175px;
+	}
+	
+	#sponsors p.one {
+		color: #c21b26;
+		margin: 30px 0 0 -25px;
+	}
+	
+	#sponsors p.two {
+		color: #eee;
+		margin: 30px 0 0 10px;
+	}
+	
+	#sponsors p.three {
+		color: #515970;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.three2 {
+		color: #515970;
+		margin: 0 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.four {
+		color: #112677;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  ask chris                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#ask_chris .ask-wrapper {
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center h1 {
+		font-size: 1.453em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center .caption p {
+		font-size: 0.95em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center a {
+		font-size: 0.82em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+	
+	#featured .featured-container .column .column-item .econ-icon {
+		font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .agri-icon {
+		font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+	
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  services                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container {
+		width: 100%;
+	}
+	
+	#issues-home .issues-home-wrap {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 100%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2),
+	#issues-home .issues-container .single-issues-container:nth-of-type(4),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  volunteer                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#volunteer {
+		padding: 2.72em 0;
+	}
+	
+	#volunteer .volunteer-wrap {
+		width: 90%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading hr {
+		width: 25%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-body .volunteer-form .how .checkboxes label {
+		width: 75%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	footer {
+		height: 200px;
+	}
+	
+	#footer-left, #footer-right {
+		background-color: #00a2fd;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#footer-left {
+		background-color: #00a2fd;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 44px 0 18px;
+		width: 12.65em;
+	}
+	
+	#footer-left .footer-logo.right {
+		background-color: #00a2fd;
+		float: none;
+	}
+	
+	#footer-left .copyright {
+		background-color: #00a2fd;
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+	
+	#footer-right {
+		display: none;
+		background-color: #00a2fd;
+	}
+
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*  iphone 6 & 6S in landscape                                                                              */
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) 
+and (orientation: landscape) {
+	
+	/* ------------------------------------------------------------------------- */
+	/*  general                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	.wrap {
+		width: 80%;
+	}
+	
+	.container {
+		padding: 0 0 150px;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  header                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	header {
+		height: 3.8em;
+	}
+	
+	/* ------------------------------- */
+	/*  nav                            */
+	/* ------------------------------- */
+	
+	nav {
+		padding: 0.98em 0 0;
+	}
+	
+	nav ul {
+		/*display: none;*/
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  hero                                                                     */
+	/* ------------------------------------------------------------------------- */
+	
+	/*#hero {
+	 background: transparent url(../images/woman_laundry.jpg) no-repeat;
+	 background-position: -355px center;
+	 background-size: cover;
+	 border-bottom: 0px solid #99d15e;
+	 box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+	 height: 425px;
+	 margin: -25px 0 0 0;
+	 padding: 0;
+	 text-align: center;
+	 width: 100%;
+	 }*/
+	
+	#hero .inner {
+		margin: 0;
+		padding: 68px 0 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header {
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+	
+	#hero .inner .hero-container .hero-header h1,
+	#hero .inner .hero-container .hero-header h2 {
+		font-weight: 700;
+		line-height: 1;
+		margin: 0;
+		padding: 2px 0 0;
+		text-transform: uppercase;
+	}
+	
+	#hero .inner .hero-container .hero-header h1 {
+		color: #2351fe;
+		font-size: 2em;
+	}
+	
+	#hero .inner .hero-container .hero-header h2 {
+		color: #00a2fd;
+		font-size: 3em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  sponsors                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#sponsors {
+		clear: both;
+		display: none;
+		text-align: left;
+	}
+	
+	#sponsors .sponsors-title {
+		color: #000;
+		font-family: "Lato", sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 225px 0 0 275px;
+		text-decoration: underline;
+		text-transform: uppercase;
+	}
+	
+	#sponsors p {
+		font-family: "Lato", sans-serif;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+		padding: 0 0 0 175px;
+	}
+	
+	#sponsors p.one {
+		color: #c21b26;
+		margin: 30px 0 0 -25px;
+	}
+	
+	#sponsors p.two {
+		color: #eee;
+		margin: 30px 0 0 10px;
+	}
+	
+	#sponsors p.three {
+		color: #515970;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.three2 {
+		color: #515970;
+		margin: 0 0 0 -660px;
+		text-align: center;
+	}
+	
+	#sponsors p.four {
+		color: #112677;
+		margin: 30px 0 0 -660px;
+		text-align: center;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  ask chris                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#ask_chris .ask-wrapper {
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center h1 {
+		font-size: 1.453em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center .caption p {
+		font-size: 0.95em;
+	}
+	
+	#ask_chris .ask-wrapper .ask-container .text-center a {
+		font-size: 0.82em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  featured                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#featured .featured-container {
+		padding-bottom: 0;
+		width: 100%;
+	}
+	
+	#featured .featured-container ul .column {
+		display: inline-block;
+		padding: 0 8% 15%;
+		width: 100%;
+	}
+	
+	#featured .featured-container .column .column-item .econ-icon {
+		font-size: 2.188em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .agri-icon {
+		font-size: 1.750em;
+		line-height: 0.688em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .sec-amend-icon {
+		font-size: 1.938em;
+		line-height: 0.750em;
+		margin-right: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		color: #7c7c7c;
+		font-size: 14px;
+		line-height: 1.7;
+		margin-bottom: 20px;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		color: #97c566;
+		font-size: 14.25px;
+		line-height: 1.7;
+		-moz-transition: color 0.2s ease 0s;
+		-o-transition: color 0.2s ease 0s;
+		-webkit-transition: color 0.2s ease 0s;
+		transition: color 0.2s ease 0s;
+	}
+	
+	#featured .featured-container .column .column-item .column-title {
+		font-size: 1.000em;
+		line-height: 1.063em;
+		margin-bottom: 0.625em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content p {
+		font-size: 0.875em;
+		line-height: 1.438em;
+		margin-bottom: 1.063em;
+	}
+	
+	#featured .featured-container .column .column-item .column-content .column-learn-more {
+		font-size: 0.750em;
+		line-height: 1.438em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  about                                                                    */
+	/* ------------------------------------------------------------------------- */
+	
+	#about p {
+		font-size: 1.14em;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  services                                                                 */
+	/* ------------------------------------------------------------------------- */
+	
+	#issues-home .issues-container {
+		width: 100%;
+	}
+	
+	#issues-home .issues-home-wrap {
+		display: inline-block;
+		margin: 0 0.59% 6.25% 0;
+		width: 100%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(3),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0.59%;
+	}
+	
+	#issues-home .issues-container .single-issues-container:nth-of-type(2),
+	#issues-home .issues-container .single-issues-container:nth-of-type(4),
+	#issues-home .issues-container .single-issues-container:nth-of-type(6),
+	#issues-home .issues-container .single-issues-container:nth-of-type(7) {
+		margin-right: 0;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  volunteer                                                                */
+	/* ------------------------------------------------------------------------- */
+	
+	#volunteer {
+		padding: 2.72em 0;
+	}
+	
+	#volunteer .volunteer-wrap {
+		width: 90%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-heading hr {
+		width: 25%;
+	}
+	
+	#volunteer .volunteer-wrap .volunteer-body .volunteer-form .how .checkboxes label {
+		width: 75%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  contact                                                                  */
+	/* ------------------------------------------------------------------------- */
+	
+	#contact {
+		padding: 2.72em 0;
+	}
+	
+	#contact .contact-wrap {
+		width: 90%;
+	}
+	
+	#contact .contact-wrap .contact-heading h1 {
+		font-size: 2.15em;
+	}
+	
+	#contact .contact-wrap .contact-heading hr {
+		width: 30%;
+	}
+	
+	/* ------------------------------------------------------------------------- */
+	/*  footer                                                                   */
+	/* ------------------------------------------------------------------------- */
+	
+	footer {
+		height: 200px;
+	}
+	
+	#footer-left, #footer-right {
+		background-color: #00a2fd;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	
+	#footer-left {
+		background-color: #00a2fd;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	#footer-left .footer-logo {
+		clear: both;
+		margin: 44px 0 18px;
+		width: 12.65em;
+	}
+	
+	#footer-left .footer-logo.right {
+		background-color: #00a2fd;
+		float: none;
+	}
+	
+	#footer-left .copyright {
+		background-color: #00a2fd;
+		font-size: 0.73em;
+		font-weight: 600;
+		line-height: 1.63;
+		margin: 2px 42px 0;
+		padding: 3px 0 2.5px;
+		width: auto;
+	}
+	
+	#footer-right {
+		display: none;
+		background-color: #00a2fd;
+	}
+
+}
